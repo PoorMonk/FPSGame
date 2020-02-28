@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UnrealEngineProjects\\C++\\MyFPSGameProject\\Source\\MyFPSGameProject\\MyFPSGameProject.Build.cs",
+		"D:\\UnrealEngineProjects\\C++\\MyFPSGameProject\\Source\\MyFPSGameProject.Target.cs",
+		"D:\\UnrealEngineProjects\\C++\\MyFPSGameProject\\Source\\MyFPSGameProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.2"
+}

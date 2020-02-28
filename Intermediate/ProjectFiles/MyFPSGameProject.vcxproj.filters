@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyFPSGameProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1760BEE4-42F9-4F22-8A80-C71D30C469FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyFPSGameProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyFPSGameProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{ADB9E496-3B30-4630-A8A3-C2378DDB7804}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyFPSGameProject">
+      <UniqueIdentifier>{B387C455-C160-452A-BE2C-2795BC25E670}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyFPSGameProject\MyFPSGameProject.Build.cs">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyFPSGameProject\MyFPSGameProject.cpp">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyFPSGameProject\MyFPSGameProject.h">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyFPSGameProject\MyFPSGameProjectGameModeBase.cpp">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyFPSGameProject\MyFPSGameProjectGameModeBase.h">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MyFPSGameProject\MyFPSCharacter.h">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyFPSGameProject\MyFPSProjectile.h">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyFPSGameProject\MyFPSHUD.h">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MyFPSGameProject\MyFPSCharacter.cpp">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyFPSGameProject\MyFPSProjectile.cpp">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyFPSGameProject\MyFPSHUD.cpp">
+      <Filter>Source\MyFPSGameProject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

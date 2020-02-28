@@ -1,0 +1,2 @@
+D:\UnrealEngineProjects\C++\MyFPSGameProject\Intermediate\Build\Win64\UE4Editor\Development\MyFPSGameProject\Definitions.MyFPSGameProject.h
+d:\unrealengineprojects\c++\myfpsgameproject\source\myfpsgameproject\MyFPSGameProject.h
