@@ -5,6 +5,9 @@
 #include "Camera/CameraComponent.h"
 #include "MyFPSProjectile.h"
 #include "Engine/World.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Engine/Engine.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values
 AMyFPSCharacter::AMyFPSCharacter()

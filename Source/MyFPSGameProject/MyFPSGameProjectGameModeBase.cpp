@@ -3,6 +3,7 @@
 
 #include "MyFPSGameProjectGameModeBase.h"
 #include "MyFPSGameProject.h"
+#include "Engine/Engine.h"
 
 void AMyFPSGameProjectGameModeBase::StartPlay()
 {

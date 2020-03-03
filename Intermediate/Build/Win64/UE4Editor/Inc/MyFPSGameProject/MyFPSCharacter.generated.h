@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYFPSGAMEPROJECT_MyFPSCharacter_generated_h
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_SPARSE_DATA
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_SPARSE_DATA
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -59,7 +59,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -104,7 +104,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyFPSCharacter(); \
 	friend struct Z_Construct_UClass_AMyFPSCharacter_Statics; \
@@ -113,7 +113,7 @@ public: \
 	DECLARE_SERIALIZER(AMyFPSCharacter)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyFPSCharacter(); \
 	friend struct Z_Construct_UClass_AMyFPSCharacter_Statics; \
@@ -122,7 +122,7 @@ public: \
 	DECLARE_SERIALIZER(AMyFPSCharacter)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyFPSCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyFPSCharacter) \
@@ -135,7 +135,7 @@ private: \
 public:
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyFPSCharacter(AMyFPSCharacter&&); \
@@ -146,28 +146,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyFPSCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyFPSCharacter)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_PRIVATE_PROPERTY_OFFSET
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_11_PROLOG
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_GENERATED_BODY_LEGACY \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_PRIVATE_PROPERTY_OFFSET
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_11_PROLOG
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_SPARSE_DATA \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_STANDARD_CONSTRUCTORS \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_SPARSE_DATA \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_GENERATED_BODY \
+#define FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_SPARSE_DATA \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_SPARSE_DATA \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -175,7 +175,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYFPSGAMEPROJECT_API UClass* StaticClass<class AMyFPSCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyFPSGameProject_Source_MyFPSGameProject_MyFPSCharacter_h
+#define CURRENT_FILE_ID FPSGame_Source_MyFPSGameProject_MyFPSCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

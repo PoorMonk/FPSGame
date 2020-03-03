@@ -1,8 +1,8 @@
-D:\UnrealEngineProjects\C++\MyFPSGameProject\Intermediate\Build\Win64\UE4Editor\Development\MyFPSGameProject\Definitions.MyFPSGameProject.h
-d:\unrealengineprojects\c++\myfpsgameproject\source\myfpsgameproject\MyFPSGameProjectGameModeBase.h
+D:\UnrealEngineProjects\C++\FPSGameGithub\FPSGame\Intermediate\Build\Win64\UE4Editor\Development\MyFPSGameProject\Definitions.MyFPSGameProject.h
+d:\unrealengineprojects\c++\fpsgamegithub\fpsgame\source\myfpsgameproject\MyFPSGameProjectGameModeBase.h
 F:\UnrealEngine\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 F:\UnrealEngine\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 F:\UnrealEngine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 F:\UnrealEngine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\UnrealEngineProjects\C++\MyFPSGameProject\Intermediate\Build\Win64\UE4Editor\Inc\MyFPSGameProject\MyFPSGameProjectGameModeBase.generated.h
-d:\unrealengineprojects\c++\myfpsgameproject\source\myfpsgameproject\MyFPSGameProject.h
+D:\UnrealEngineProjects\C++\FPSGameGithub\FPSGame\Intermediate\Build\Win64\UE4Editor\Inc\MyFPSGameProject\MyFPSGameProjectGameModeBase.generated.h
+d:\unrealengineprojects\c++\fpsgamegithub\fpsgame\source\myfpsgameproject\MyFPSGameProject.h

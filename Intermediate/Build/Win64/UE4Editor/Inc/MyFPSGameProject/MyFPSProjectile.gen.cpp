@@ -92,7 +92,9 @@ void EmptyLinkFunctionForGeneratedCodeMyFPSProjectile() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyFPSProjectile_OnHit_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// Function that is called when the projectile hits something\n" },
 		{ "ModuleRelativePath", "MyFPSProjectile.h" },
+		{ "ToolTip", "Function that is called when the projectile hits something" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyFPSProjectile_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyFPSProjectile, nullptr, "OnHit", nullptr, nullptr, sizeof(MyFPSProjectile_eventOnHit_Parms), Z_Construct_UFunction_AMyFPSProjectile_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyFPSProjectile_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyFPSProjectile_OnHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyFPSProjectile_OnHit_Statics::Function_MetaDataParams)) };
@@ -133,7 +135,7 @@ void EmptyLinkFunctionForGeneratedCodeMyFPSProjectile() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyFPSGameProject,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyFPSProjectile_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMyFPSProjectile_OnHit, "OnHit" }, // 1931427441
+		{ &Z_Construct_UFunction_AMyFPSProjectile_OnHit, "OnHit" }, // 4028157393
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyFPSProjectile_Statics::Class_MetaDataParams[] = {
@@ -188,7 +190,7 @@ void EmptyLinkFunctionForGeneratedCodeMyFPSProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyFPSProjectile, 2771795402);
+	IMPLEMENT_CLASS(AMyFPSProjectile, 2472932058);
 	template<> MYFPSGAMEPROJECT_API UClass* StaticClass<AMyFPSProjectile>()
 	{
 		return AMyFPSProjectile::StaticClass();

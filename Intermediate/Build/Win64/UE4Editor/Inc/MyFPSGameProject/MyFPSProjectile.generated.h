@@ -17,8 +17,8 @@ struct FHitResult;
 #endif
 #define MYFPSGAMEPROJECT_MyFPSProjectile_generated_h
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_SPARSE_DATA
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_SPARSE_DATA
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -34,7 +34,7 @@ struct FHitResult;
 	}
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -50,7 +50,7 @@ struct FHitResult;
 	}
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS_NO_PURE_DECLS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyFPSProjectile(); \
 	friend struct Z_Construct_UClass_AMyFPSProjectile_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(AMyFPSProjectile)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyFPSProjectile(); \
 	friend struct Z_Construct_UClass_AMyFPSProjectile_Statics; \
@@ -68,7 +68,7 @@ public: \
 	DECLARE_SERIALIZER(AMyFPSProjectile)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_STANDARD_CONSTRUCTORS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyFPSProjectile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyFPSProjectile) \
@@ -81,7 +81,7 @@ private: \
 public:
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_ENHANCED_CONSTRUCTORS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyFPSProjectile(AMyFPSProjectile&&); \
@@ -92,28 +92,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyFPSProjectile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyFPSProjectile)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_PRIVATE_PROPERTY_OFFSET
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_12_PROLOG
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_GENERATED_BODY_LEGACY \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_PRIVATE_PROPERTY_OFFSET
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_12_PROLOG
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_PRIVATE_PROPERTY_OFFSET \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_SPARSE_DATA \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_STANDARD_CONSTRUCTORS \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_PRIVATE_PROPERTY_OFFSET \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_SPARSE_DATA \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_GENERATED_BODY \
+#define FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_PRIVATE_PROPERTY_OFFSET \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_SPARSE_DATA \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS_NO_PURE_DECLS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h_15_ENHANCED_CONSTRUCTORS \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_PRIVATE_PROPERTY_OFFSET \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_SPARSE_DATA \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_INCLASS_NO_PURE_DECLS \
+	FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -121,7 +121,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYFPSGAMEPROJECT_API UClass* StaticClass<class AMyFPSProjectile>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyFPSGameProject_Source_MyFPSGameProject_MyFPSProjectile_h
+#define CURRENT_FILE_ID FPSGame_Source_MyFPSGameProject_MyFPSProjectile_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

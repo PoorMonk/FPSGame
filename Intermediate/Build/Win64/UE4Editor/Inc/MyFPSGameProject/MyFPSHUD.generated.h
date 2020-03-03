@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYFPSGAMEPROJECT_MyFPSHUD_generated_h
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_SPARSE_DATA
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS_NO_PURE_DECLS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_SPARSE_DATA
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyFPSHUD(); \
 	friend struct Z_Construct_UClass_AMyFPSHUD_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AMyFPSHUD)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyFPSHUD(); \
 	friend struct Z_Construct_UClass_AMyFPSHUD_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AMyFPSHUD)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_STANDARD_CONSTRUCTORS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyFPSHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyFPSHUD) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_ENHANCED_CONSTRUCTORS \
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyFPSHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,31 +60,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyFPSHUD); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyFPSHUD)
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_PRIVATE_PROPERTY_OFFSET \
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CrosshairTexture() { return STRUCT_OFFSET(AMyFPSHUD, CrosshairTexture); }
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_12_PROLOG
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_GENERATED_BODY_LEGACY \
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_12_PROLOG
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_PRIVATE_PROPERTY_OFFSET \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_SPARSE_DATA \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_STANDARD_CONSTRUCTORS \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_PRIVATE_PROPERTY_OFFSET \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_SPARSE_DATA \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_GENERATED_BODY \
+#define FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_PRIVATE_PROPERTY_OFFSET \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_SPARSE_DATA \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS_NO_PURE_DECLS \
-	MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h_15_ENHANCED_CONSTRUCTORS \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_PRIVATE_PROPERTY_OFFSET \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_SPARSE_DATA \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_INCLASS_NO_PURE_DECLS \
+	FPSGame_Source_MyFPSGameProject_MyFPSHUD_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -92,7 +92,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYFPSGAMEPROJECT_API UClass* StaticClass<class AMyFPSHUD>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyFPSGameProject_Source_MyFPSGameProject_MyFPSHUD_h
+#define CURRENT_FILE_ID FPSGame_Source_MyFPSGameProject_MyFPSHUD_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
